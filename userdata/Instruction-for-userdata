@@ -1,0 +1,4 @@
+#Jenkins: Ubuntu 20.04 free tier eligible. T2.small. Port 8080 
+#Nexus: Centos 7. T2.medium. Port 8081 from anywhere. SSH port 22 my ip 
+#Sonarqube: Ubuntu 18.04. Port 80 (Note* SonarQube runs on port 9000 but we have nexus service in this instance that will forward the service to the sonar service) 
+#but also add port 9000
